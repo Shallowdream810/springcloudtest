@@ -30,4 +30,8 @@ public class DeptController {
         List<Dept> dept = restTemplate.getForObject(REST_URL + "findAll", List.class);
         return dept;
     }
+    @RequestMapping("consumer/dept/discovery")
+    public Object discovery(){
+        return restTemplate.getForObject(REST_URL+"dept/discovery",Object.class);
+    }
 }

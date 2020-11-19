@@ -7,6 +7,8 @@ mybatis:
     map-underscore-to-camel-case: true
 
 spring:
+  application:
+    name: microservicecloud-dept
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     druid:
@@ -19,3 +21,16 @@ spring:
     url: jdbc:mysql://localhost:3306/springcloud?serverTimezone=GMT%2B8&allowMultiQueries=true&characterEncoding=utf-8
     username: root
     password: root
+eureka:
+  client:  #服务注册尽eureka
+    service-url:
+#      defaultZone: http://192.168.45.69:7001/eureka
+      defaultZone: http://localhost:7001/eureka
+  instance:
+    instance-id: microservicecloud-dept8001  #自定义eureka上显示的名称
+    prefer-ip-address: true  # 访问路径可以显示IP地址
+info:
+  app.name: microservicecloud--provider-dept-8001
+  company.name: ghh
+  build.artifactId: @project.artifactId@           # 显示当前项目的名称以及
+  build.version: @project.version@

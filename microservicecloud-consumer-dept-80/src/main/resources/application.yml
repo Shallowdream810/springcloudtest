@@ -1,0 +1,5 @@
+server:
+  port: 80
+
+
+REST_URL: http://localhost:8001/

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f48e1b61-e99c-4bea-9089-b3966633bf61" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="F:\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="F:\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1kVmRiXM5oVGSV4GPgCsKjinu2L" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/microservicecloud--provider-dept-8001/src/main" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\workspace\springcloudtest\micorservicecloud-eureka-7001\src\main" />
+      <recent name="F:\workspace\springcloudtest\microservicecloud-consumer-dept-80\src\main" />
+      <recent name="F:\workspace\springcloudtest\microservicecloud--provider-dept-8001\src\main" />
+      <recent name="F:\workspace\springcloudtest\microservicecloud-api\src\main" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Consumer80">
+    <configuration name="Consumer80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservicecloud-consumer-dept-80" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ghh.Consumer80" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Provider8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservicecloud--provider-dept-8001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ghh.Provider8001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f48e1b61-e99c-4bea-9089-b3966633bf61" name="Default Changelist" comment="" />
+      <created>1605794126814</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605794126814</updated>
+      <workItem from="1605794130035" duration="399000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="812" y="454" key="FileChooserDialogImpl" timestamp="1605794205806">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="812" y="454" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1605794205806" />
+    <state width="1685" height="313" key="GridCell.Tab.0.bottom" timestamp="1605794466657">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1685" height="313" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1605794466657" />
+    <state width="1685" height="313" key="GridCell.Tab.0.center" timestamp="1605794466657">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1685" height="313" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1605794466657" />
+    <state width="1685" height="313" key="GridCell.Tab.0.left" timestamp="1605794466657">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1685" height="313" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1605794466657" />
+    <state width="1685" height="313" key="GridCell.Tab.0.right" timestamp="1605794466657">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1685" height="313" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1605794466657" />
+    <state x="512" y="339" key="SettingsEditor" timestamp="1605794209774">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="512" y="339" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1605794209774" />
+    <state x="407" y="425" key="new project wizard" timestamp="1605794466413">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="407" y="425" key="new project wizard/0.0.2560.1400@0.0.2560.1400" timestamp="1605794466413" />
+  </component>
+</project>

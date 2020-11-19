@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ghh.dao.DeptDao">
+
+
+
+<!--    <select id="getAll" resultType="com.ghh.myproject.entity.PandaUser">-->
+<!--        select * from panda_user-->
+<!--    </select>-->
+
+    <select id="findAll" resultType="dept">
+        select *
+         from dept
+    </select>
+
+    <insert id="addDept" parameterType="dept">
+        insert into dept (dname,db_source) values (#{dname},DATABASE());
+    </insert>
+
+    <select id="findById" resultType="dept">
+        select  * from where deptno = #{deptno};
+    </select>
+</mapper>

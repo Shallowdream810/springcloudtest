@@ -3,6 +3,8 @@
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/micorservicecloud-eureka-7001" />
+    <file type="web" url="file://$PROJECT_DIR$/micorservicecloud-eureka-7002" />
+    <file type="web" url="file://$PROJECT_DIR$/micorservicecloud-eureka-7003" />
     <file type="web" url="file://$PROJECT_DIR$/microservicecloud--provider-dept-8001" />
     <file type="web" url="file://$PROJECT_DIR$/microservicecloud-consumer-dept-80" />
   </component>

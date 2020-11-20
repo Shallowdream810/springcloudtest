@@ -13,6 +13,9 @@
     <module>microservicecloud--provider-dept-8001</module>
     <module>microservicecloud-consumer-dept-80</module>
     <module>micorservicecloud-eureka-7001</module>
+    <module>micorservicecloud-eureka-7002</module>
+    <module>micorservicecloud-eureka-7003</module>
+    <module>micorservicecloud-eureka-7003</module>
   </modules>
 
   <parent>

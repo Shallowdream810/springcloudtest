@@ -20,18 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f48e1b61-e99c-4bea-9089-b3966633bf61" name="Default Changelist" comment="版本依赖问题">
-      <change afterPath="$PROJECT_DIR$/micorservicecloud-eureka-7002/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micorservicecloud-eureka-7002/src/main/java/com/ghh/Eureka7002.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micorservicecloud-eureka-7002/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micorservicecloud-eureka-7003/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micorservicecloud-eureka-7003/src/main/java/com/ghh/Eureka7003.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micorservicecloud-eureka-7003/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micorservicecloud-eureka-7001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/micorservicecloud-eureka-7001/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservicecloud--provider-dept-8001/src/main/java/com/ghh/controller/DeptController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud--provider-dept-8001/src/main/java/com/ghh/controller/DeptController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservicecloud--provider-dept-8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud--provider-dept-8001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservicecloud-consumer-dept-80/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-consumer-dept-80/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservicecloud-consumer-dept-80/src/main/java/com/ghh/Consumer80.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-consumer-dept-80/src/main/java/com/ghh/Consumer80.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservicecloud-consumer-dept-80/src/main/java/com/ghh/config/ConfigBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-consumer-dept-80/src/main/java/com/ghh/config/ConfigBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservicecloud-consumer-dept-80/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-consumer-dept-80/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +95,7 @@
       <recent name="F:\workspace\springcloudtest\microservicecloud-consumer-dept-80\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Eureka7003">
+  <component name="RunManager" selected="Spring Boot.Consumer80">
     <configuration name="Consumer80Test.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="microservicecloud-consumer-dept-80" />
       <extension name="coverage">
@@ -220,13 +215,18 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="版本依赖问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="版本依赖问题" />
+    <MESSAGE value="eureka集群" />
+    <option name="LAST_COMMIT_MESSAGE" value="eureka集群" />
   </component>
   <component name="WindowStateProjectService">
     <state x="923" y="308" width="1333" height="852" key="#Project_Structure" timestamp="1605856860405">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="923" y="308" width="1333" height="852" key="#Project_Structure/0.0.2560.1400@0.0.2560.1400" timestamp="1605856860405" />
+    <state x="92" y="92" width="2376" height="1216" key="DiffContextDialog" timestamp="1605861487552">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="92" y="92" width="2376" height="1216" key="DiffContextDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1605861487552" />
     <state x="812" y="454" key="FileChooserDialogImpl" timestamp="1605795519362">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -239,38 +239,38 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1011" y="455" key="Github.UntrackedFilesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1605794787820" />
-    <state width="2126" height="315" key="GridCell.Tab.0.bottom" timestamp="1605858782270">
+    <state width="2126" height="460" key="GridCell.Tab.0.bottom" timestamp="1605865253041">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2126" height="315" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1605858782270" />
-    <state width="2126" height="315" key="GridCell.Tab.0.center" timestamp="1605858782270">
+    <state width="2126" height="460" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1605865253041" />
+    <state width="2126" height="460" key="GridCell.Tab.0.center" timestamp="1605865253041">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2126" height="315" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1605858782270" />
-    <state width="2126" height="315" key="GridCell.Tab.0.left" timestamp="1605858782270">
+    <state width="2126" height="460" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1605865253041" />
+    <state width="2126" height="460" key="GridCell.Tab.0.left" timestamp="1605865253041">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2126" height="315" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1605858782270" />
-    <state width="2126" height="315" key="GridCell.Tab.0.right" timestamp="1605858782270">
+    <state width="2126" height="460" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1605865253041" />
+    <state width="2126" height="460" key="GridCell.Tab.0.right" timestamp="1605865253041">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2126" height="315" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1605858782270" />
-    <state width="2126" height="315" key="GridCell.Tab.1.bottom" timestamp="1605858782271">
+    <state width="2126" height="460" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1605865253041" />
+    <state width="2126" height="460" key="GridCell.Tab.1.bottom" timestamp="1605865253041">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2126" height="315" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1605858782271" />
-    <state width="2126" height="315" key="GridCell.Tab.1.center" timestamp="1605858782270">
+    <state width="2126" height="460" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1605865253041" />
+    <state width="2126" height="460" key="GridCell.Tab.1.center" timestamp="1605865253041">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2126" height="315" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1605858782270" />
-    <state width="2126" height="315" key="GridCell.Tab.1.left" timestamp="1605858782270">
+    <state width="2126" height="460" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1605865253041" />
+    <state width="2126" height="460" key="GridCell.Tab.1.left" timestamp="1605865253041">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2126" height="315" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1605858782270" />
-    <state width="2126" height="315" key="GridCell.Tab.1.right" timestamp="1605858782270">
+    <state width="2126" height="460" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1605865253041" />
+    <state width="2126" height="460" key="GridCell.Tab.1.right" timestamp="1605865253041">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2126" height="315" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1605858782270" />
+    <state width="2126" height="460" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1605865253041" />
     <state width="1685" height="206" key="GridCell.Tab.2.bottom" timestamp="1605796254508">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -291,10 +291,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="791" y="304" width="1225" height="852" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1605856844975" />
-    <state x="897" y="459" key="Vcs.Push.Dialog.v2" timestamp="1605847865348">
+    <state x="897" y="459" key="Vcs.Push.Dialog.v2" timestamp="1605861501359">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="897" y="459" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1605847865348" />
+    <state x="897" y="459" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1605861501359" />
     <state x="706" y="508" key="new project wizard" timestamp="1605857250097">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

@@ -28,8 +28,9 @@ public class DeptController {
 
     @RequestMapping("findAll")
     public List<Dept> test(){
-
-        return deptService.list();
+        System.out.println("123成功");
+//        return deptService.list();
+        return null;
     }
 
     @RequestMapping(value = "dept/discovery",method = RequestMethod.GET)

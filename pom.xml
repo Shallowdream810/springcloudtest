@@ -39,22 +39,22 @@
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-dependencies</artifactId>
-                <version>Hoxton.RELEASE</version>
-<!--        <version>Dalston.SR1</version>-->
+<!--                <version>Hoxton.RELEASE</version>-->
+        <version>Dalston.SR1</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
 <!--      eureka的服务端和客户端-->
-      <dependency>
-        <groupId>org.springframework.cloud</groupId>
-        <artifactId>spring-cloud-starter-eureka-server</artifactId>
-        <version>1.3.1.RELEASE</version>
-      </dependency>
-      <dependency>
-        <groupId>org.springframework.cloud</groupId>
-        <artifactId>spring-cloud-starter-eureka</artifactId>
-        <version>1.4.7.RELEASE</version>
-      </dependency>
+<!--      <dependency>-->
+<!--        <groupId>org.springframework.cloud</groupId>-->
+<!--        <artifactId>spring-cloud-starter-eureka-server</artifactId>-->
+<!--        <version>1.3.1.RELEASE</version>-->
+<!--      </dependency>-->
+<!--      <dependency>-->
+<!--        <groupId>org.springframework.cloud</groupId>-->
+<!--        <artifactId>spring-cloud-starter-eureka</artifactId>-->
+<!--        <version>1.4.7.RELEASE</version>-->
+<!--      </dependency>-->
 <!--      eureka中点击微服务的信息依赖-->
       <dependency>
         <groupId>org.springframework.boot</groupId>
@@ -66,11 +66,11 @@
 
 
 
-    <dependency>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-web</artifactId>
-        <version>2.3.0.RELEASE</version>
-      </dependency>
+<!--    <dependency>-->
+<!--        <groupId>org.springframework.boot</groupId>-->
+<!--        <artifactId>spring-boot-starter-web</artifactId>-->
+<!--        <version>2.3.0.RELEASE</version>-->
+<!--      </dependency>-->
       <dependency>
         <groupId>mysql</groupId>
         <artifactId>mysql-connector-java</artifactId>

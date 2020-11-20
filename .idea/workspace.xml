@@ -1,13 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f48e1b61-e99c-4bea-9089-b3966633bf61" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micorservicecloud-eureka-7001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/micorservicecloud-eureka-7001/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud--provider-dept-8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud--provider-dept-8001/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud--provider-dept-8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud--provider-dept-8001/src/main/resources/application.yml" afterDir="false" />
+    <list default="true" id="f48e1b61-e99c-4bea-9089-b3966633bf61" name="Default Changelist" comment="版本依赖问题">
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +35,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="test" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -127,6 +144,9 @@
       <list>
         <item itemvalue="JUnit.WebAppTest.test" />
         <item itemvalue="JUnit.Consumer80Test.test01" />
+        <item itemvalue="JUnit.WebAppTest.test" />
+        <item itemvalue="JUnit.Consumer80Test.test01" />
+        <item itemvalue="JUnit.WebAppTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -141,15 +161,36 @@
       <option name="presentableId" value="Default" />
       <updated>1605794126814</updated>
       <workItem from="1605794130035" duration="9231000" />
-      <workItem from="1605841784086" duration="2999000" />
+      <workItem from="1605841784086" duration="3338000" />
     </task>
+    <task id="LOCAL-00001" summary="版本依赖问题">
+      <created>1605847610696</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605847610696</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="版本依赖问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="版本依赖问题" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1045" y="306" key="#Project_Structure" timestamp="1605796149478">
@@ -168,38 +209,38 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1011" y="455" key="Github.UntrackedFilesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1605794787820" />
-    <state width="2126" height="257" key="GridCell.Tab.0.bottom" timestamp="1605844925750">
+    <state width="2126" height="303" key="GridCell.Tab.0.bottom" timestamp="1605847761539">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2126" height="257" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1605844925750" />
-    <state width="2126" height="257" key="GridCell.Tab.0.center" timestamp="1605844925750">
+    <state width="2126" height="303" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1605847761539" />
+    <state width="2126" height="303" key="GridCell.Tab.0.center" timestamp="1605847761539">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2126" height="257" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1605844925750" />
-    <state width="2126" height="257" key="GridCell.Tab.0.left" timestamp="1605844925750">
+    <state width="2126" height="303" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1605847761539" />
+    <state width="2126" height="303" key="GridCell.Tab.0.left" timestamp="1605847761539">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2126" height="257" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1605844925750" />
-    <state width="2126" height="257" key="GridCell.Tab.0.right" timestamp="1605844925750">
+    <state width="2126" height="303" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1605847761539" />
+    <state width="2126" height="303" key="GridCell.Tab.0.right" timestamp="1605847761539">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2126" height="257" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1605844925750" />
-    <state width="2126" height="334" key="GridCell.Tab.1.bottom" timestamp="1605844791521">
+    <state width="2126" height="303" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1605847761539" />
+    <state width="2126" height="257" key="GridCell.Tab.1.bottom" timestamp="1605847706641">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2126" height="334" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1605844791521" />
-    <state width="2126" height="334" key="GridCell.Tab.1.center" timestamp="1605844791520">
+    <state width="2126" height="257" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1605847706641" />
+    <state width="2126" height="257" key="GridCell.Tab.1.center" timestamp="1605847706641">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2126" height="334" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1605844791520" />
-    <state width="2126" height="334" key="GridCell.Tab.1.left" timestamp="1605844791520">
+    <state width="2126" height="257" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1605847706641" />
+    <state width="2126" height="257" key="GridCell.Tab.1.left" timestamp="1605847706641">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2126" height="334" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1605844791520" />
-    <state width="2126" height="334" key="GridCell.Tab.1.right" timestamp="1605844791521">
+    <state width="2126" height="257" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1605847706641" />
+    <state width="2126" height="257" key="GridCell.Tab.1.right" timestamp="1605847706641">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2126" height="334" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1605844791521" />
+    <state width="2126" height="257" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1605847706641" />
     <state width="1685" height="206" key="GridCell.Tab.2.bottom" timestamp="1605796254508">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -220,6 +261,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="512" y="339" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1605794209774" />
+    <state x="897" y="459" key="Vcs.Push.Dialog.v2" timestamp="1605847865348">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="897" y="459" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1605847865348" />
     <state x="407" y="425" key="new project wizard" timestamp="1605794682982">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

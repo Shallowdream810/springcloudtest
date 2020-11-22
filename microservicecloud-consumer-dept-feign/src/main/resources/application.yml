@@ -1,0 +1,13 @@
+server:
+  port: 80
+
+REST_URL: http://MICROSERVICECLOUD-DEPT/  # 使用负载均衡后需要更改地址链接方式，是从eureka中拿出这个名称的服务进行访问
+#REST_URL: http://localhost:8001/
+
+
+eureka:
+  client:  #服务注册尽eureka
+    register-with-eureka: false
+    service-url:
+      #      defaultZone: http://192.168.45.69:7001/eureka
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/

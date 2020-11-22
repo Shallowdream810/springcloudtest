@@ -1,0 +1,36 @@
+server:
+  port: 8003
+mybatis:
+  type-aliases-package: com.ghh.api.entity
+  mapper-locations: classpath:mapper/*Mapper.xml
+  configuration:
+    map-underscore-to-camel-case: true
+
+spring:
+  application:
+    name: microservicecloud-dept
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    druid:
+      initial-size: 10
+      max-active: 20
+      min-idle: 1
+      stat-view-servlet:
+        allow: true
+      test-on-borrow: true
+    url: jdbc:mysql://localhost:3306/springcloud03?serverTimezone=GMT%2B8&allowMultiQueries=true&characterEncoding=utf-8
+    username: root
+    password: root
+eureka:
+  client:  #服务注册尽eureka
+    service-url:
+#      defaultZone: http://192.168.45.69:7001/eureka
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
+  instance:
+    instance-id: microservicecloud-dept8003  #自定义eureka上显示的名称
+    prefer-ip-address: true  # 访问路径可以显示IP地址
+info:
+  app.name: microservicecloud-provider-dept-8003
+  company.name: ghh
+  build.artifactId: @project.artifactId@           # 显示当前项目的名称以及
+  build.version: @project.version@

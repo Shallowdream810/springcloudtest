@@ -20,13 +20,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f48e1b61-e99c-4bea-9089-b3966633bf61" name="Default Changelist" comment="版本依赖问题">
+      <change afterPath="$PROJECT_DIR$/microservicecloud--provider-dept-8002/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud--provider-dept-8002/src/main/java/com/ghh/Provider8002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud--provider-dept-8002/src/main/java/com/ghh/controller/DeptController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud--provider-dept-8002/src/main/java/com/ghh/dao/DeptDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud--provider-dept-8002/src/main/java/com/ghh/service/DeptService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud--provider-dept-8002/src/main/java/com/ghh/service/impl/DeptServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud--provider-dept-8002/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud--provider-dept-8002/src/main/resources/mapper/DeptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud--provider-dept-8003/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud--provider-dept-8003/src/main/java/com/ghh/Provider8003.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud--provider-dept-8003/src/main/java/com/ghh/controller/DeptController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud--provider-dept-8003/src/main/java/com/ghh/dao/DeptDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud--provider-dept-8003/src/main/java/com/ghh/service/DeptService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud--provider-dept-8003/src/main/java/com/ghh/service/impl/DeptServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud--provider-dept-8003/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud--provider-dept-8003/src/main/resources/mapper/DeptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-api/src/main/java/com/ghh/api/service/DeptClientService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-consumer-dept-80/src/main/java/com/ghh/config/RandomRule_GH.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-consumer-dept-80/src/main/java/com/myrule/MySelfRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-consumer-dept-feign/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-consumer-dept-feign/src/main/java/com/ghh/Feign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-consumer-dept-feign/src/main/java/com/ghh/config/ConfigBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-consumer-dept-feign/src/main/java/com/ghh/config/RandomRule_GH.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-consumer-dept-feign/src/main/java/com/ghh/controller/DeptController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-consumer-dept-feign/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micorservicecloud-eureka-7002/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/micorservicecloud-eureka-7002/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micorservicecloud-eureka-7003/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/micorservicecloud-eureka-7003/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservicecloud--provider-dept-8001/src/main/java/com/ghh/controller/DeptController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud--provider-dept-8001/src/main/java/com/ghh/controller/DeptController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud--provider-dept-8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud--provider-dept-8001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservicecloud--provider-dept-8001/src/main/resources/mapper/DeptMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud--provider-dept-8001/src/main/resources/mapper/DeptMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservicecloud-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservicecloud-api/src/main/java/com/ghh/api/entity/Dept.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-api/src/main/java/com/ghh/api/entity/Dept.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservicecloud-consumer-dept-80/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-consumer-dept-80/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservicecloud-consumer-dept-80/src/main/java/com/ghh/Consumer80.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-consumer-dept-80/src/main/java/com/ghh/Consumer80.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-consumer-dept-80/src/main/java/com/ghh/config/ConfigBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-consumer-dept-80/src/main/java/com/ghh/config/ConfigBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-consumer-dept-80/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-consumer-dept-80/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservicecloud-consumer-dept-80/src/main/java/com/ghh/controller/DeptController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-consumer-dept-80/src/main/java/com/ghh/controller/DeptController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +92,7 @@
   </component>
   <component name="ProjectId" id="1kVmRiXM5oVGSV4GPgCsKjinu2L" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -77,25 +111,28 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/micorservicecloud-eureka-7003/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/microservicecloud-consumer-dept-feign/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.27069134" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.ghh.config" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.ghh" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\workspace\springcloudtest\micorservicecloud-eureka-7003\src\main\resources" />
-      <recent name="F:\workspace\springcloudtest\micorservicecloud-eureka-7002\src\main\resources" />
-      <recent name="F:\workspace\springcloudtest\microservicecloud--provider-dept-8001\src\test" />
-      <recent name="F:\workspace\springcloudtest\micorservicecloud-eureka-7001\src\main" />
-      <recent name="F:\workspace\springcloudtest\microservicecloud-consumer-dept-80\src\main" />
+      <recent name="F:\workspace\springcloudtest\microservicecloud-consumer-dept-feign\src\main\resources" />
+      <recent name="F:\workspace\springcloudtest\microservicecloud-consumer-dept-feign\src\main\java" />
+      <recent name="F:\workspace\springcloudtest\microservicecloud--provider-dept-8003\src\main\resources" />
+      <recent name="F:\workspace\springcloudtest\microservicecloud--provider-dept-8003\src\main\java" />
+      <recent name="F:\workspace\springcloudtest\microservicecloud--provider-dept-8002\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Consumer80">
+  <component name="RunManager" selected="Spring Boot.Provider8001">
     <configuration name="Consumer80Test.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="microservicecloud-consumer-dept-80" />
       <extension name="coverage">
@@ -156,9 +193,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Feign" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservicecloud-consumer-dept-feign" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ghh.Feign" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Provider8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="microservicecloud--provider-dept-8001" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ghh.Provider8001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Provider8002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservicecloud--provider-dept-8002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ghh.Provider8002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Provider8003" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservicecloud--provider-dept-8003" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ghh.Provider8003" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -223,6 +281,14 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="923" y="308" width="1333" height="852" key="#Project_Structure/0.0.2560.1400@0.0.2560.1400" timestamp="1605856860405" />
+    <state x="2170" y="811" key="#com.intellij.ide.util.MemberChooser" timestamp="1606050304837">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="2170" y="811" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1606050304837" />
+    <state x="368" y="620" width="706" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1606049061591">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="368" y="620" width="706" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.2560.1400@0.0.2560.1400" timestamp="1606049061591" />
     <state x="92" y="92" width="2376" height="1216" key="DiffContextDialog" timestamp="1605861487552">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -239,38 +305,38 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1011" y="455" key="Github.UntrackedFilesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1605794787820" />
-    <state width="2126" height="460" key="GridCell.Tab.0.bottom" timestamp="1605865253041">
+    <state width="1458" height="199" key="GridCell.Tab.0.bottom" timestamp="1606054104378">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2126" height="460" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1605865253041" />
-    <state width="2126" height="460" key="GridCell.Tab.0.center" timestamp="1605865253041">
+    <state width="1458" height="199" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1606054104378" />
+    <state width="1458" height="199" key="GridCell.Tab.0.center" timestamp="1606054104378">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2126" height="460" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1605865253041" />
-    <state width="2126" height="460" key="GridCell.Tab.0.left" timestamp="1605865253041">
+    <state width="1458" height="199" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1606054104378" />
+    <state width="1458" height="199" key="GridCell.Tab.0.left" timestamp="1606054104378">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2126" height="460" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1605865253041" />
-    <state width="2126" height="460" key="GridCell.Tab.0.right" timestamp="1605865253041">
+    <state width="1458" height="199" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1606054104378" />
+    <state width="1458" height="199" key="GridCell.Tab.0.right" timestamp="1606054104378">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2126" height="460" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1605865253041" />
-    <state width="2126" height="460" key="GridCell.Tab.1.bottom" timestamp="1605865253041">
+    <state width="1458" height="199" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1606054104378" />
+    <state width="1458" height="199" key="GridCell.Tab.1.bottom" timestamp="1606054104378">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2126" height="460" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1605865253041" />
-    <state width="2126" height="460" key="GridCell.Tab.1.center" timestamp="1605865253041">
+    <state width="1458" height="199" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1606054104378" />
+    <state width="1458" height="199" key="GridCell.Tab.1.center" timestamp="1606054104378">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2126" height="460" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1605865253041" />
-    <state width="2126" height="460" key="GridCell.Tab.1.left" timestamp="1605865253041">
+    <state width="1458" height="199" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1606054104378" />
+    <state width="1458" height="199" key="GridCell.Tab.1.left" timestamp="1606054104378">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2126" height="460" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1605865253041" />
-    <state width="2126" height="460" key="GridCell.Tab.1.right" timestamp="1605865253041">
+    <state width="1458" height="199" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1606054104378" />
+    <state width="1458" height="199" key="GridCell.Tab.1.right" timestamp="1606054104378">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2126" height="460" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1605865253041" />
+    <state width="1458" height="199" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1606054104378" />
     <state width="1685" height="206" key="GridCell.Tab.2.bottom" timestamp="1605796254508">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -287,18 +353,22 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1685" height="206" key="GridCell.Tab.2.right/0.0.2560.1400@0.0.2560.1400" timestamp="1605796254508" />
-    <state x="791" y="304" width="1225" height="852" key="SettingsEditor" timestamp="1605856844975">
+    <state x="263" y="366" width="1225" height="880" key="SettingsEditor" timestamp="1606051049716">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="791" y="304" width="1225" height="852" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1605856844975" />
+    <state x="263" y="366" width="1225" height="880" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1606051049716" />
     <state x="897" y="459" key="Vcs.Push.Dialog.v2" timestamp="1605861501359">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="897" y="459" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1605861501359" />
-    <state x="706" y="508" key="new project wizard" timestamp="1605857250097">
+    <state x="127" y="475" key="new project wizard" timestamp="1606050895318">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="706" y="508" key="new project wizard/0.0.2560.1400@0.0.2560.1400" timestamp="1605857250097" />
+    <state x="127" y="475" key="new project wizard/0.0.2560.1400@0.0.2560.1400" timestamp="1606050895318" />
+    <state x="513" y="297" key="run.anything.popup" timestamp="1606053565215">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="513" y="297" key="run.anything.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1606053565215" />
     <state x="1621" y="392" width="672" height="678" key="search.everywhere.popup" timestamp="1605800986211">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

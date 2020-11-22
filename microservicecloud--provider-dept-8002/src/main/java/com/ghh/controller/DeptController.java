@@ -30,15 +30,15 @@ public class DeptController {
         return deptService.list();
 //        return null;
     }
+
     @RequestMapping("findById/{id}")
     public Dept findById(@PathVariable("id")Long id){
         return deptService.get(id);
     }
 
-
     @GetMapping("testRibbon")
     public String testRibbon(String text){
-        return "8001端口项目"+text;
+        return "8002端口项目"+text;
     }
 
     @RequestMapping(value = "dept/discovery",method = RequestMethod.GET)

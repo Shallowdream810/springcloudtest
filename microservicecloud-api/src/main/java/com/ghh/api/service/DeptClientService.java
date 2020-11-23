@@ -14,8 +14,8 @@ import java.util.List;
  * @Date: Create in 21:28 2020/11/22
  * @Modified By:
  */
-//针对当前微服务的面向接口的编程
-@FeignClient(value = "MICROSERVICECLOUD-DEPT")
+//针对当前微服务的面向接口的编程,对应的接口出现异常后调用fallbackFactory。
+@FeignClient(value = "MICROSERVICECLOUD-DEPT",fallbackFactory = DeptClientServiceFallbackFactory.class)
 public interface DeptClientService {
 
     /**

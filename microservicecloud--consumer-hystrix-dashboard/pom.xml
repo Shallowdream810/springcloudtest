@@ -50,6 +50,11 @@
       <groupId>org.springframework.cloud</groupId>
       <artifactId>spring-cloud-starter-config</artifactId>
     </dependency>
+    <!--    feign的依赖-->
+    <dependency>
+      <groupId>org.springframework.cloud</groupId>
+      <artifactId>spring-cloud-starter-openfeign</artifactId>
+    </dependency>
     <!--    hystrix 熔断器-->
     <dependency>
       <groupId>org.springframework.cloud</groupId>
@@ -58,7 +63,7 @@
 <!--    hystrix-dashboard对微服务调用统计和监控-->
     <dependency>
       <groupId>org.springframework.cloud</groupId>
-      <artifactId>spring-cloud-netflix-hystrix-dashboard</artifactId>
+      <artifactId>spring-cloud-starter-netflix-hystrix-dashboard</artifactId>
     </dependency>
     <!--    ribbon的依赖-->
     <dependency>

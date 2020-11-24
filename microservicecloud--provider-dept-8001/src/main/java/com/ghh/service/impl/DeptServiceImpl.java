@@ -37,4 +37,9 @@ public class DeptServiceImpl implements DeptService {
     public List<Dept> list() {
         return deptDao.findAll();
     }
+
+    @Override
+    public Dept getOne(long l) {
+        return deptDao.findById(l);
+    }
 }

@@ -5,11 +5,13 @@
     <file type="web" url="file://$PROJECT_DIR$/micorservicecloud-eureka-7001" />
     <file type="web" url="file://$PROJECT_DIR$/micorservicecloud-eureka-7002" />
     <file type="web" url="file://$PROJECT_DIR$/micorservicecloud-eureka-7003" />
+    <file type="web" url="file://$PROJECT_DIR$/micorservicecloud-zuul-gateway-9527" />
     <file type="web" url="file://$PROJECT_DIR$/microservicecloud--consumer-hystrix-dashboard" />
     <file type="web" url="file://$PROJECT_DIR$/microservicecloud--provider-dept-8001" />
     <file type="web" url="file://$PROJECT_DIR$/microservicecloud--provider-dept-8002" />
     <file type="web" url="file://$PROJECT_DIR$/microservicecloud--provider-dept-8003" />
     <file type="web" url="file://$PROJECT_DIR$/microservicecloud--provider-dept-hystrix-8001" />
+    <file type="web" url="file://$PROJECT_DIR$/microservicecloud-config-3344" />
     <file type="web" url="file://$PROJECT_DIR$/microservicecloud-consumer-dept-80" />
     <file type="web" url="file://$PROJECT_DIR$/microservicecloud-consumer-dept-feign" />
   </component>

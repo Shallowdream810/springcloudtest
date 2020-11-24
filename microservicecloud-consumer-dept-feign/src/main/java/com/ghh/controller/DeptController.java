@@ -33,4 +33,9 @@ public class DeptController {
         Dept dept = clientService.get(id);
         return dept;
     }
+    @RequestMapping("test")
+    public Dept test1(){
+        Dept test = clientService.getTest();
+        return test;
+    }
 }

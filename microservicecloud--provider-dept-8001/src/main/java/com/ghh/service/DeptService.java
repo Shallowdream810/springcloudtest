@@ -16,4 +16,6 @@ public interface DeptService {
     Dept get(Long id);
 
     List<Dept> list();
+
+    Dept getOne(long l);
 }

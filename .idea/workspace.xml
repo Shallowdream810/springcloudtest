@@ -19,32 +19,28 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f48e1b61-e99c-4bea-9089-b3966633bf61" name="Default Changelist" comment="Feign的配置与使用">
-      <change afterPath="$PROJECT_DIR$/microservicecloud--consumer-hystrix-dashboard/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservicecloud--consumer-hystrix-dashboard/src/main/java/com/ghh/DashBoard9001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservicecloud--consumer-hystrix-dashboard/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservicecloud--provider-dept-hystrix-8001/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservicecloud--provider-dept-hystrix-8001/src/main/java/com/ghh/Hystrix8001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservicecloud--provider-dept-hystrix-8001/src/main/java/com/ghh/controller/DeptController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservicecloud--provider-dept-hystrix-8001/src/main/java/com/ghh/dao/DeptDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservicecloud--provider-dept-hystrix-8001/src/main/java/com/ghh/service/DeptService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservicecloud--provider-dept-hystrix-8001/src/main/java/com/ghh/service/impl/DeptServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservicecloud--provider-dept-hystrix-8001/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservicecloud--provider-dept-hystrix-8001/src/main/resources/mapper/DeptMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservicecloud-api/src/main/java/com/ghh/api/service/DeptClientServiceFallbackFactory.java" afterDir="false" />
+    <list default="true" id="f48e1b61-e99c-4bea-9089-b3966633bf61" name="Default Changelist" comment="测试环境的eureka设置，hystrix的熔断降级&#10;以及豪猪的初步创建">
+      <change afterPath="$PROJECT_DIR$/micorservicecloud-zuul-gateway-9527/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micorservicecloud-zuul-gateway-9527/src/main/java/com/ghh/Zuul9527.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micorservicecloud-zuul-gateway-9527/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud--consumer-hystrix-dashboard/src/main/java/com/ghh/config/ServletConfigBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud--provider-dept-8001/src/main/java/com/ghh/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-config-3344/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-config-3344/src/main/java/com/ghh/Config3345.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-config-3344/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservicecloud--consumer-hystrix-dashboard/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud--consumer-hystrix-dashboard/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservicecloud--consumer-hystrix-dashboard/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud--consumer-hystrix-dashboard/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservicecloud--provider-dept-8001/src/main/java/com/ghh/service/DeptService.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud--provider-dept-8001/src/main/java/com/ghh/service/DeptService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservicecloud--provider-dept-8001/src/main/java/com/ghh/service/impl/DeptServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud--provider-dept-8001/src/main/java/com/ghh/service/impl/DeptServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservicecloud--provider-dept-8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud--provider-dept-8001/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud--provider-dept-8002/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud--provider-dept-8002/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud--provider-dept-8003/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud--provider-dept-8003/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-api/src/main/java/com/ghh/api/entity/Dept.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-api/src/main/java/com/ghh/api/entity/Dept.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservicecloud--provider-dept-hystrix-8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud--provider-dept-hystrix-8001/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservicecloud-api/src/main/java/com/ghh/api/service/DeptClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-api/src/main/java/com/ghh/api/service/DeptClientService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-consumer-dept-80/src/main/java/com/ghh/controller/DeptController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-consumer-dept-80/src/main/java/com/ghh/controller/DeptController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-consumer-dept-80/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-consumer-dept-80/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-consumer-dept-feign/src/main/java/com/ghh/config/RandomRule_GH.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-consumer-dept-feign/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-consumer-dept-feign/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservicecloud-api/src/main/java/com/ghh/api/service/DeptClientServiceFallbackFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-api/src/main/java/com/ghh/api/service/DeptClientServiceFallbackFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservicecloud-consumer-dept-feign/src/main/java/com/ghh/controller/DeptController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-consumer-dept-feign/src/main/java/com/ghh/controller/DeptController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,31 +94,31 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/microservicecloud--provider-dept-hystrix-8001/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../workspaces/BSManager" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.27069134" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="spring" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\workspace\springcloudtest\microservicecloud--provider-dept-hystrix-8001\src\main\resources" />
-      <recent name="F:\workspace\springcloudtest\microservicecloud--provider-dept-hystrix-8001\src\main\java" />
-      <recent name="F:\workspace\springcloudtest\microservicecloud-consumer-dept-feign\src\main\resources" />
-      <recent name="F:\workspace\springcloudtest\microservicecloud-consumer-dept-feign\src\main\java" />
-      <recent name="F:\workspace\springcloudtest\microservicecloud--provider-dept-8003\src\main\resources" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.ghh.config" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.ghh" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.ghh.config" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\workspace\springcloudtest\microservicecloud-config-3344\src\main\resources" />
+      <recent name="F:\workspace\springcloudtest\micorservicecloud-zuul-gateway-9527\src\main\resources" />
+      <recent name="F:\workspace\springcloudtest\microservicecloud--provider-dept-hystrix-8001\src\main\resources" />
+      <recent name="F:\workspace\springcloudtest\microservicecloud--provider-dept-hystrix-8001\src\main\java" />
+      <recent name="F:\workspace\springcloudtest\microservicecloud-consumer-dept-feign\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.DashBoard9001">
+  <component name="RunManager" selected="Spring Boot.Config3345">
     <configuration name="Consumer80Test.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="microservicecloud-consumer-dept-80" />
       <extension name="coverage">
@@ -151,6 +147,13 @@
       <option name="MAIN_CLASS_NAME" value="com.ghh.WebAppTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Config3345" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservicecloud-config-3344" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ghh.Config3345" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -226,6 +229,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Zuul9527" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="micorservicecloud-zuul-gateway-9527" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ghh.Zuul9527" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="JUnit.Consumer80Test.test01" />
       <item itemvalue="JUnit.WebAppTest.test" />
@@ -239,6 +249,8 @@
       <item itemvalue="Spring Boot.Provider8002" />
       <item itemvalue="Spring Boot.Provider8003" />
       <item itemvalue="Spring Boot.DashBoard9001" />
+      <item itemvalue="Spring Boot.Zuul9527" />
+      <item itemvalue="Spring Boot.Config3345" />
     </list>
     <recent_temporary>
       <list>
@@ -249,6 +261,9 @@
         <item itemvalue="JUnit.Consumer80Test.test01" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SpringGeneralSettings">
+    <option name="allowAutoConfigurationMode" value="true" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -264,6 +279,8 @@
       <workItem from="1605841784086" duration="3338000" />
       <workItem from="1605855907270" duration="3492000" />
       <workItem from="1606135727586" duration="9544000" />
+      <workItem from="1606147588460" duration="92000" />
+      <workItem from="1606225583817" duration="8925000" />
     </task>
     <task id="LOCAL-00001" summary="版本依赖问题">
       <created>1605847610696</created>
@@ -279,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606054335864</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="测试环境的eureka设置，hystrix的熔断降级&#10;以及豪猪的初步创建">
+      <created>1606147662622</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606147662622</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,21 +326,22 @@
     <MESSAGE value="版本依赖问题" />
     <MESSAGE value="eureka集群" />
     <MESSAGE value="Feign的配置与使用" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feign的配置与使用" />
+    <MESSAGE value="测试环境的eureka设置，hystrix的熔断降级&#10;以及豪猪的初步创建" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试环境的eureka设置，hystrix的熔断降级&#10;以及豪猪的初步创建" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="923" y="308" width="1333" height="852" key="#Project_Structure" timestamp="1606143267786">
+    <state x="923" y="308" width="1333" height="852" key="#Project_Structure" timestamp="1606234163439">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="923" y="308" width="1333" height="852" key="#Project_Structure/0.0.2560.1400@0.0.2560.1400" timestamp="1606143267786" />
+    <state x="923" y="308" width="1333" height="852" key="#Project_Structure/0.0.2560.1400@0.0.2560.1400" timestamp="1606234163439" />
     <state x="1350" y="295" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606145495064">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1350" y="295" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1606145495064" />
-    <state x="2170" y="811" key="#com.intellij.ide.util.MemberChooser" timestamp="1606140896428">
+    <state x="2170" y="811" key="#com.intellij.ide.util.MemberChooser" timestamp="1606230406816">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="2170" y="811" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1606140896428" />
+    <state x="2170" y="811" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1606230406816" />
     <state x="368" y="620" width="706" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1606049061591">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -325,10 +350,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="92" y="92" width="2376" height="1216" key="DiffContextDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1605861487552" />
-    <state x="812" y="454" width="440" height="653" key="FileChooserDialogImpl" timestamp="1606138858882">
+    <state x="812" y="454" width="440" height="653" key="FileChooserDialogImpl" timestamp="1606234261647">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="812" y="454" width="440" height="653" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1606138858882" />
+    <state x="812" y="454" width="440" height="653" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1606234261647" />
     <state x="1264" y="655" key="Github.ShareDialog" timestamp="1605794757934">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -337,38 +362,38 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1011" y="455" key="Github.UntrackedFilesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1605794787820" />
-    <state width="1727" height="320" key="GridCell.Tab.0.bottom" timestamp="1606147484604">
+    <state width="1541" height="463" key="GridCell.Tab.0.bottom" timestamp="1606234092690">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1727" height="320" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1606147484604" />
-    <state width="1727" height="320" key="GridCell.Tab.0.center" timestamp="1606147484603">
+    <state width="1541" height="463" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1606234092690" />
+    <state width="1541" height="463" key="GridCell.Tab.0.center" timestamp="1606234092690">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1727" height="320" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1606147484603" />
-    <state width="1727" height="320" key="GridCell.Tab.0.left" timestamp="1606147484603">
+    <state width="1541" height="463" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1606234092690" />
+    <state width="1541" height="463" key="GridCell.Tab.0.left" timestamp="1606234092690">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1727" height="320" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1606147484603" />
-    <state width="1727" height="320" key="GridCell.Tab.0.right" timestamp="1606147484604">
+    <state width="1541" height="463" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1606234092690" />
+    <state width="1541" height="463" key="GridCell.Tab.0.right" timestamp="1606234092690">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1727" height="320" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1606147484604" />
-    <state width="1727" height="320" key="GridCell.Tab.1.bottom" timestamp="1606147484604">
+    <state width="1541" height="463" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1606234092690" />
+    <state width="1541" height="463" key="GridCell.Tab.1.bottom" timestamp="1606234092690">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1727" height="320" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1606147484604" />
-    <state width="1727" height="320" key="GridCell.Tab.1.center" timestamp="1606147484604">
+    <state width="1541" height="463" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1606234092690" />
+    <state width="1541" height="463" key="GridCell.Tab.1.center" timestamp="1606234092690">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1727" height="320" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1606147484604" />
-    <state width="1727" height="320" key="GridCell.Tab.1.left" timestamp="1606147484604">
+    <state width="1541" height="463" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1606234092690" />
+    <state width="1541" height="463" key="GridCell.Tab.1.left" timestamp="1606234092690">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1727" height="320" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1606147484604" />
-    <state width="1727" height="320" key="GridCell.Tab.1.right" timestamp="1606147484604">
+    <state width="1541" height="463" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1606234092690" />
+    <state width="1541" height="463" key="GridCell.Tab.1.right" timestamp="1606234092690">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1727" height="320" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1606147484604" />
+    <state width="1541" height="463" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1606234092690" />
     <state width="1727" height="473" key="GridCell.Tab.2.bottom" timestamp="1606147480564">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -385,14 +410,14 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1727" height="473" key="GridCell.Tab.2.right/0.0.2560.1400@0.0.2560.1400" timestamp="1606147480564" />
-    <state x="263" y="366" width="1225" height="880" key="SettingsEditor" timestamp="1606051049716">
+    <state x="263" y="366" width="1225" height="880" key="SettingsEditor" timestamp="1606233552515">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="263" y="366" width="1225" height="880" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1606051049716" />
-    <state x="897" y="459" key="Vcs.Push.Dialog.v2" timestamp="1606054338710">
+    <state x="263" y="366" width="1225" height="880" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1606233552515" />
+    <state x="897" y="459" key="Vcs.Push.Dialog.v2" timestamp="1606147664259">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="897" y="459" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1606054338710" />
+    <state x="897" y="459" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1606147664259" />
     <state x="1227" y="0" width="917" height="879" key="dock-window-1" timestamp="1606145434237">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -401,10 +426,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="901" y="455" width="596" height="594" key="find.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1606138553297" />
-    <state x="1152" y="468" key="new project wizard" timestamp="1606142729339">
+    <state x="390" y="605" key="new project wizard" timestamp="1606232937757">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1152" y="468" key="new project wizard/0.0.2560.1400@0.0.2560.1400" timestamp="1606142729339" />
+    <state x="390" y="605" key="new project wizard/0.0.2560.1400@0.0.2560.1400" timestamp="1606232937757" />
     <state x="513" y="297" key="run.anything.popup" timestamp="1606053565215">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

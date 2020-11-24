@@ -8,16 +8,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="microservicecloud--provider-dept-hystrix-8001" />
+        <module name="micorservicecloud-zuul-gateway-9527" />
         <module name="microservicecloud-consumer-dept-80" />
         <module name="microservicecloud--consumer-hystrix-dashboard" />
-        <module name="micorservicecloud-eureka-7001" />
+        <module name="microservicecloud-config-3344" />
         <module name="microservicecloud-consumer-dept-feign" />
+        <module name="microservicecloud-api" />
         <module name="microservicecloud--provider-dept-8003" />
         <module name="microservicecloud--provider-dept-8002" />
         <module name="microservicecloud--provider-dept-8001" />
         <module name="micorservicecloud-eureka-7003" />
         <module name="micorservicecloud-eureka-7002" />
-        <module name="microservicecloud-api" />
+        <module name="micorservicecloud-eureka-7001" />
       </profile>
     </annotationProcessing>
   </component>
@@ -26,12 +28,14 @@
       <module name="micorservicecloud-eureka-7001" options="-parameters" />
       <module name="micorservicecloud-eureka-7002" options="-parameters" />
       <module name="micorservicecloud-eureka-7003" options="-parameters" />
+      <module name="micorservicecloud-zuul-gateway-9527" options="-parameters" />
       <module name="microservicecloud--consumer-hystrix-dashboard" options="-parameters" />
       <module name="microservicecloud--provider-dept-8001" options="-parameters" />
       <module name="microservicecloud--provider-dept-8002" options="-parameters" />
       <module name="microservicecloud--provider-dept-8003" options="-parameters" />
       <module name="microservicecloud--provider-dept-hystrix-8001" options="-parameters" />
       <module name="microservicecloud-api" options="-parameters" />
+      <module name="microservicecloud-config-3344" options="-parameters" />
       <module name="microservicecloud-consumer-dept-80" options="-parameters" />
       <module name="microservicecloud-consumer-dept-feign" options="-parameters" />
     </option>

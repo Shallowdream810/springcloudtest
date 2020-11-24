@@ -28,4 +28,7 @@ public interface DeptClientService {
 
     @RequestMapping(value = "findById/{id}",method = RequestMethod.GET)
     Dept get(@PathVariable("id") Long id);
+
+    @RequestMapping(value = "test/findAll",method = RequestMethod.GET)
+    Dept getTest();
 }

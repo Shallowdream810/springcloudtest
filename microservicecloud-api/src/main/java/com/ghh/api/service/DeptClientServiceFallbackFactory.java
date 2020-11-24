@@ -31,6 +31,11 @@ public class DeptClientServiceFallbackFactory implements FallbackFactory<DeptCli
                 dept.setDname("该id："+id+"不存在此数据 ,Consumer客户端提供的降级服务，此刻provider已关闭--@HystrixCommand");
                 return dept;
             }
+
+            @Override
+            public Dept getTest() {
+                return null;
+            }
         };
     }
 }
